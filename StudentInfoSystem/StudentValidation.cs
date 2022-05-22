@@ -7,28 +7,23 @@ using UserLogin;
 
 namespace StudentInfoSystem
 {
-    internal class StudentValidation
+    public class StudentValidation
     {
         public Student GetStudentDataByUser(User user)
         {
-            StudentData studentData = new StudentData();
-            if (user == null || user.FacNum == null)
+            Student student;
+            if (user != null && user.FakNum != null)
             {
-                throw new ArgumentNullException("No faculty number in this user");
+                student = (from s in new StudentInfoContext().Students
+                           where s.FacNum.Equals(user.FakNum)
+                           select s).DefaultIfEmpty(null).First() ?? throw new StudentNotFoundException("Student was not found");
+            }
+            else
+            {
+                throw new UserNotValidException("User data is not valid");
             }
 
-            IEnumerable<Student> list = studentData.GetStudents();
-
-            foreach (Student st in list)
-            {
-                if (st.FacultyNumber.Equals(user.FacNum))
-                {
-                    return st;
-                }
-            }
-
-            throw new ArgumentNullException("No such student");
-
+            return student;
         }
     }
 }

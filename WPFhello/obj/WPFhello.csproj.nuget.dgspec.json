@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\WPFhello\\WPFhello.csproj": {}
+    "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\WPFhello\\WPFhello.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\WPFhello\\WPFhello.csproj": {
+    "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\WPFhello\\WPFhello.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\WPFhello\\WPFhello.csproj",
+        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\WPFhello\\WPFhello.csproj",
         "projectName": "WPFhello",
-        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\WPFhello\\WPFhello.csproj",
+        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\WPFhello\\WPFhello.csproj",
         "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\WPFhello\\obj\\",
+        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\WPFhello\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",

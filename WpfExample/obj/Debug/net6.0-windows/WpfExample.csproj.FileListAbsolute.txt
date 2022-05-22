@@ -1,0 +1,7 @@
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\WpfExample.csproj.AssemblyReference.cache
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\NamesWindow.baml
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\NamesWindow.g.cs
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\WpfExample_MarkupCompile.cache
+C:\Users\G\Desktop\Vl семестар\ovaa papka e PS\WpfExample\obj\Debug\net6.0-windows\WpfExample_MarkupCompile.lref

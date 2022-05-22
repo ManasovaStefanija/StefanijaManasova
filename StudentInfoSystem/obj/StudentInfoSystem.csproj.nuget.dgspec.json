@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\StudentInfoSystem\\StudentInfoSystem.csproj": {}
+    "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\StudentInfoSystem\\StudentInfoSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\StudentInfoSystem\\StudentInfoSystem.csproj": {
+    "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\StudentInfoSystem\\StudentInfoSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\StudentInfoSystem\\StudentInfoSystem.csproj",
+        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\StudentInfoSystem\\StudentInfoSystem.csproj",
         "projectName": "StudentInfoSystem",
-        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\StudentInfoSystem\\StudentInfoSystem.csproj",
+        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\StudentInfoSystem\\StudentInfoSystem.csproj",
         "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\StudentInfoSystem\\obj\\",
+        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\StudentInfoSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\UserLogin.csproj": {
-                "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\UserLogin.csproj"
+              "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\UserLogin.csproj": {
+                "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\UserLogin.csproj"
               }
             }
           }
@@ -43,6 +43,24 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            },
+            "System.Windows.Interactivity.WPF": {
+              "target": "Package",
+              "version": "[2.0.20525, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,29 +83,29 @@
         }
       }
     },
-    "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\UserLogin.csproj": {
+    "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\UserLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\UserLogin.csproj",
+        "projectUniqueName": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\UserLogin.csproj",
         "projectName": "UserLogin",
-        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\UserLogin.csproj",
+        "projectPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\UserLogin.csproj",
         "packagesPath": "C:\\Users\\G\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\PS_31_StefanijaMansova_II_upr\\PS_31_StefanijaManasova\\UserLogin\\obj\\",
+        "outputPath": "C:\\Users\\G\\Desktop\\Vl семестар\\ovaa papka e PS\\UserLogin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\G\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -98,8 +116,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -110,6 +134,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
